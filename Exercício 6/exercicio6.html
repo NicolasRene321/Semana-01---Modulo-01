@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <section>
+        <form>
+            <span>Escolha uma opção:</span><br>
+            <label for="input1">Primeira opção</label>
+            <input type="checkbox" id="input1" name="inputs" value="1 option"><br>
+            <label for="input2">Segunda opção</label>
+            <input type="checkbox" id="input2" name="inputs" value="2 option"><br>
+            <label for="input3">Terceira opção</label>
+            <input type="checkbox" id="input3" name="inputs" value="3 option"><br>
+        </form>
+    </section>
+    <br>
+    <section>
+        <form>
+            <label for="typecolor">Selecione a sua cor favorita</label>
+            <input type="color" id="typecolor" name="color" value="#FFD700">
+        </form>
+    </section>
+    <br>
+    <section>
+        <form>
+            <label for="date">Data de nascimento</label>
+            <input type="date" id="date" name="DateBirth">
+        </form>
+    </section>
+    <br>
+    <section>
+        <form>
+            <label for="time-data">Data e horário</label>
+            <input type="datetime-local" id="time-data" name="datetime">
+        </form>
+    </section>
+    <br>
+    <section>
+        <form>
+            <label for="email">Digite o seu e-mail</label>
+            <input type="email" id="email" name="email1">
+        </form>
+    </section>
+    <br>
+    <section>
+        <form>
+            <label for="myfile">Selecione um arquivo</label>
+            <input type="file" id="myfile" name="file">
+        </form>
+    </section>
+    <br>
+    <section>
+        <form>
+            <label for="mymonth">Mês e ano</label>
+            <input type="month" id="mymonth" name="month">  
+        </form>
+    </section>
+    <br>
+    <section>
+        <form>
+            <label for="mynumber">Escolha um número entre 1 a 10</label>
+            <input type="number" id="mynumber" name="number" min="1" max="10">
+        </form>
+    </section>
+    <br>
+    <section>
+        <form>
+            <label for="mypassword">Digite a sua senha</label>
+            <input type="password" id="mypassword" name="password" minlenght="8" maxlenght="15" placeholder="senha">
+            <input type="submit">
+        </form>
+    </section>
+    <br>
+    <section>
+        <form>
+            <span>Escolha uma ou mais linguagens:</span><br>
+            <label for="html">HTML</label>
+            <input type="radio" id="html" name="html" value="HTML">
+            <label for="css">CSS</label>
+            <input type="radio" id="css" name="css" value="CSS">
+            <label for="javascript">JavaScript</label>
+            <input type="radio" id="javascript" name="javascript" value="JavaScript">
+        </form>
+    </section>
+    <br>
+    <section>
+        <form>
+            <label for="points">Pontos (entre 1 e 5)</label>
+            <input type="range" id="points" name="points" min="1" max="5">
+        </form>
+    </section>
+    <br>
+    <section>
+        <label for="mysearch">Pesquisar</label>
+        <input type="search" id="mysearch" name="search">
+        <input type="submit">
+    </section>
+    <br>
+    <section>
+        <form>
+            <label for="myphonenumber">Número de telefone</label>
+            <input type="tel" id="myphonenumber" name="number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+        </form>
+    </section>
+    <br>
+    <section>
+        <form>
+            <label for="myname">Nome</label>
+            <input type="text" id="myname" name="nome">
+            <input type="submit">
+        </form>
+    </section>
+    <br>
+    <section>
+        <form>
+            <label for="mytime">Selecione um horário</label>
+            <input type="time" id="mytime" name="time">
+            <input type="submit">
+        </form>
+    </section>
+    <br>
+    <section>
+        <form>
+            <label for="myurl">Adicione sua página inicial</label>
+            <input type="url" id="myurl" name="url">
+            <input type="submit">
+        </form>
+    </section>
+    <br>
+    <section>
+        <form>
+            <label for="myweek">Selecione a semana</label>
+            <input type="week" id="myweek" name="week">
+            <input type="submit">
+        </form>
+    </section>
+</body>
+
+</html>

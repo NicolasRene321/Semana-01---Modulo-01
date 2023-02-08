@@ -1,0 +1,18 @@
+.imagem {
+    display: block;
+    box-shadow: 5px 7px 7px rgb(59, 58, 58);
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 100px;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(9, 9, 128);
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(71, 22, 4);
+}
